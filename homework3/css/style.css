@@ -1,0 +1,68 @@
+@import url("reset.css");
+
+[href] {
+    color: green;
+}
+/*теги*/
+p {
+    color: blue;
+}
+caption {
+    color: rgb(159, 91, 91);
+}
+
+
+/*класи*/
+.text-list, .technology, span.level {
+    color: green;
+}
+
+.text-block {
+    color: red; 
+}
+
+/*комбінації селекторів*/
+td.table-etap, p.list-advantages, p.text, span.list-advantages {
+    color: rgb(110, 96, 96);
+}
+
+span.list-advantages {
+    color:darkslateblue;
+}
+
+.order-list-definition, .order-list-text > li {
+    color:rgb(5, 87, 90);
+
+}/*вкладеність 1-го рівня*/
+li > p.text {
+    color:rgb(15, 227, 234);
+}
+.text-block > p {
+    color:rgb(110, 9, 9);
+}
+
+/*Заголовки div + class*/
+.subhead3 {
+    color:rgb(20, 117, 121);
+}
+
+.list-order + li {
+    color: coral;
+}
+
+.text-definition ~ p {
+    color: rgb(155, 36, 132);
+}
+
+[class*="__text"] {
+	color: green; 
+}
+
+/*Звертаємось відразу до об'єктів з класами вкладеність: div.text*/
+[class*="__head"] ~ p {
+    color: goldenrod;
+}
+
+[class*="__head"] {
+	color: green;
+}
