@@ -1,0 +1,19 @@
+/* Підключення шрифтів */
+@import url("font.css"); 
+
+@import url("reset.css");
+
+
+img {
+    max-width: 100%;
+    border-radius: 10px;
+    width: 500px;
+    
+    /* height: auto; */
+}
+.route > img {
+    text-align:center;
+}
+
+
+

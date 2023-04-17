@@ -1,0 +1,97 @@
+/* Підключення шрифтів */
+
+/* from plagin &display=swap*/
+@import url(https://fonts.googleapis.com/css?family=Golos+Text:regular,500,700&display=swap);
+
+/* from file */
+@font-face {
+    font-family: 'NAMU 1750';
+    src: url("../fonts/NAMU-1750.woff2") format('woff2'), url('../fonts/NAMU-1750.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NAMU 1850';
+    src: url('../fonts/NAMU-1850.woff2') format('woff2'),
+        url('../fonts/NAMU-1850.woff') format('woff');
+    /* font-weight: normal;
+    font-style: normal; */
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'NAMU 1960';
+    src: url('../fonts/NAMU-1960.woff2') format('woff2'),
+        url('../fonts/NAMU-1960.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+} 
+
+body {
+    font-family: 'NAMU 1750', 'NAMU 1850', 'NAMU 1960';
+    font-size: 14px;
+    font-weight: 400;
+    color: rgba(4, 26, 4, 0.575);
+
+}
+.title{
+    font-family: 'NAMU 1960', 'Franklin Gothic Medium', 'Arial Narrow Bold', 'Arial, sans-serif';
+    font-size: 42px;
+    color: rgb(156, 14, 14);
+    text-align: center;
+    text-transform: capitalize;
+    text-decoration: wavy;
+    letter-spacing: normal; /* пробіли між літерами */
+    font-weight: 900;
+}
+h2 {
+    font-family: 'NAMU 1850', 'Arial, Helvetica, sans-serif';
+    font-size: 34px; 
+    font-style: italic;
+    text-decoration: overline;
+    color: rgba(25, 6, 149, 0.7);
+    text-indent: 30px;  /* абзац */
+    word-spacing: 10px;
+
+}
+p {
+    font-family: 'NAMU 1750', Impact, Haettenschweiler, 'Arial Narrow', sans-serif;
+    font-size: 16px;
+    line-height: 30px;  /* 20/14 */
+    color: rgba(94, 19, 19, 0.8);
+    text-align: right;
+    text-indent: 40px; /* абзац */
+    word-spacing: 5px;
+}
+
+.link {
+    font-family: 'NAMU 1750', Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', sans-serif;
+    font-size: 14px;
+    text-decoration-line: underline;
+}
+
+.list-navigation, .header-navigation, .navigation {
+    font-family: 'NAMU 1750', 'Arial Narrow', sans-serif;
+    font-size: 16px;
+    text-decoration-line: underline;
+}
+.header-navigation, .navigation {
+    text-decoration-line: none;
+}
+p.head {
+    text-align: left;
+    text-indent: 40px; /* абзац */
+    font-family: Verdana, Geneva, Tahoma, sans-serif, 'Arial Narrow', sans-serif;
+    font-size: 14px;
+    text-shadow: 2px 2px 5px rgba(160, 23, 23, 0.5);
+}
+span {
+    font-size: larger;
+    text-decoration-style: solid;
+}
+mark {
+    font-size:medium ;
+}
